@@ -59,8 +59,5 @@ for (let i = 0; i < favoriteColors.length; i++) {
         console.log("First Color: ", favoriteColors[0])
     } else {
         console.log(favoriteColors[i]);
-    }
-    
-}
-
-// 
+    }   
+} 
