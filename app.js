@@ -61,3 +61,50 @@ for (let i = 0; i < favoriteColors.length; i++) {
         console.log(favoriteColors[i]);
     }   
 } 
+
+
+// HackerRank Testing for Preficient*
+// Print the numbers 1-15 on each line
+// (excluding 5, 10, 12)
+for (let i = 1; i <= 15; i++) {
+    if(i === 5 || i === 10 || i === 12) {
+        console.log()
+    } else {
+        console.log(i)
+    }
+}
+
+// Print out the weather report from the array on each
+// line.
+const weatherReport = ["rainy", "muggy", "foggy", "foggy", "rainy", "sunny", "rainy", "rainy" ];
+const zipcodes = [94112, 94110, 94122, 94109, 94116, 94118, 94117, 94121];
+
+for (let i = 0; i < weatherReport.length; i++) {
+    console.log(weatherReport[i]);
+}
+
+for (let i = 0; i < weatherReport.length; i++) {
+    console.log(zipcodes[i], weatherReport[i])
+}
+
+
+// If the weather is 'rainy', print 'bring an umbrella'
+for (let i = 0; i < weatherReport.length; i++) {
+    if (weatherReport[i] === "rainy") {
+        console.log(zipcodes[i], weatherReport[i]);
+        console.log("bring an umbrella");
+    } else {
+     console.log(zipcodes[i], weatherReport[i]);   
+    }    
+}
+
+//
+const recyclingTruckLoad = ["food waste", "glass", "paper", "paper", "bubble wrap", "aluminum", "food waste", "food waste", "ceramic"]
+
+for (let i = 0; i < recyclingTruckLoad.length; i++) {
+    if(recyclingTruckLoad[i] === "food waste" || recyclingTruckLoad[i] === "bubble wrap" || recyclingTruckLoad[i] === "ceramic") {
+        console.log("FAILURE", i);
+    } else {
+        console.log("SUCCESS", recyclingTruckLoad[i]);
+    }
+}
