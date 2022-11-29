@@ -5,10 +5,11 @@ console.log("Hello World!");
 
 console.log("A", "B", "C");
 
-// Variables: Can change in value
+// 'const' Cannot change their value:
 const city = "Dallas";
 console.log(city);
 
+// Variables: Can change in value
 let weather = "rainy";
 console.log(weather);
 
